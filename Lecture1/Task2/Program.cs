@@ -24,3 +24,11 @@ Console.WriteLine(quotient);
 d1 = 6;
 double qoutient2 = i1 / d1;
 Console.WriteLine(qoutient2);
+
+
+int a = 4;
+int b = 12;
+int c = 10;
+int d = 16;
+double formula = (a * b) / (c + d);
+Console.WriteLine(formula);
