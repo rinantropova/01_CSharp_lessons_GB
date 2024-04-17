@@ -1,0 +1,15 @@
+C:\Users\sladkij\Desktop\GeekBrains\Intro C#\01_CSharp_lessons_GB\Lecture1\HWTask\bin\Debug\net8.0\HWTask.exe
+C:\Users\sladkij\Desktop\GeekBrains\Intro C#\01_CSharp_lessons_GB\Lecture1\HWTask\bin\Debug\net8.0\HWTask.deps.json
+C:\Users\sladkij\Desktop\GeekBrains\Intro C#\01_CSharp_lessons_GB\Lecture1\HWTask\bin\Debug\net8.0\HWTask.runtimeconfig.json
+C:\Users\sladkij\Desktop\GeekBrains\Intro C#\01_CSharp_lessons_GB\Lecture1\HWTask\bin\Debug\net8.0\HWTask.dll
+C:\Users\sladkij\Desktop\GeekBrains\Intro C#\01_CSharp_lessons_GB\Lecture1\HWTask\bin\Debug\net8.0\HWTask.pdb
+C:\Users\sladkij\Desktop\GeekBrains\Intro C#\01_CSharp_lessons_GB\Lecture1\HWTask\obj\Debug\net8.0\HWTask.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sladkij\Desktop\GeekBrains\Intro C#\01_CSharp_lessons_GB\Lecture1\HWTask\obj\Debug\net8.0\HWTask.AssemblyInfoInputs.cache
+C:\Users\sladkij\Desktop\GeekBrains\Intro C#\01_CSharp_lessons_GB\Lecture1\HWTask\obj\Debug\net8.0\HWTask.AssemblyInfo.cs
+C:\Users\sladkij\Desktop\GeekBrains\Intro C#\01_CSharp_lessons_GB\Lecture1\HWTask\obj\Debug\net8.0\HWTask.csproj.CoreCompileInputs.cache
+C:\Users\sladkij\Desktop\GeekBrains\Intro C#\01_CSharp_lessons_GB\Lecture1\HWTask\obj\Debug\net8.0\HWTask.sourcelink.json
+C:\Users\sladkij\Desktop\GeekBrains\Intro C#\01_CSharp_lessons_GB\Lecture1\HWTask\obj\Debug\net8.0\HWTask.dll
+C:\Users\sladkij\Desktop\GeekBrains\Intro C#\01_CSharp_lessons_GB\Lecture1\HWTask\obj\Debug\net8.0\refint\HWTask.dll
+C:\Users\sladkij\Desktop\GeekBrains\Intro C#\01_CSharp_lessons_GB\Lecture1\HWTask\obj\Debug\net8.0\HWTask.pdb
+C:\Users\sladkij\Desktop\GeekBrains\Intro C#\01_CSharp_lessons_GB\Lecture1\HWTask\obj\Debug\net8.0\HWTask.genruntimeconfig.cache
+C:\Users\sladkij\Desktop\GeekBrains\Intro C#\01_CSharp_lessons_GB\Lecture1\HWTask\obj\Debug\net8.0\ref\HWTask.dll
