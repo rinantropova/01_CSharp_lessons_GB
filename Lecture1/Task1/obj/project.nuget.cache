@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "WctD6lMG98SZ3H6ThWPRqmvOPBA9lxc9Bdt57Y3fORaA16Ei+pEHXFCTYFnCrBHbVW2Jq2G78m7J5c2a+B38dA==",
+  "dgSpecHash": "Itlk5h9ZZyicgUfFVWiSR8bNg6GhFoGmYOeONGyRSwKamYstDZE59l5pB/l4+goWnLjh9t5yYRiSnNOXLnTxMw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Administrator\\OneDrive\\Documents\\GeekBrains\\Intro C#\\Lecture1\\Task1\\Task1.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\sladkij\\Desktop\\GeekBrains\\Intro C#\\01_CSharp_lessons_GB\\Lecture1\\Task1\\Task1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\sladkij\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.18\\microsoft.netcore.app.ref.7.0.18.nupkg.sha512",
+    "C:\\Users\\sladkij\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.18\\microsoft.windowsdesktop.app.ref.7.0.18.nupkg.sha512",
+    "C:\\Users\\sladkij\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.18\\microsoft.aspnetcore.app.ref.7.0.18.nupkg.sha512",
+    "C:\\Users\\sladkij\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.18\\microsoft.netcore.app.host.win-x64.7.0.18.nupkg.sha512"
+  ],
   "logs": []
 }
