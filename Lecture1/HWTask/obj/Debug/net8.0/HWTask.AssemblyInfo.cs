@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HWTask")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5356f2da355e4fc6d16f6dc24a9d46e54981d7d5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ce83ca626b6c8d871b8ea96a711b267dea141d91")]
 [assembly: System.Reflection.AssemblyProductAttribute("HWTask")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HWTask")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
