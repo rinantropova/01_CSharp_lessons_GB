@@ -1,4 +1,6 @@
-﻿Console.Write("Enter a new positive number: ");
+﻿//Third from the end
+
+Console.Write("Enter a new positive number: ");
 int num = Convert.ToInt32(Console.ReadLine());
 
 int thirdDigit = num / 100;
