@@ -1,4 +1,4 @@
-﻿Console.Write("Enter new positive number: ");
+﻿Console.Write("Enter new 3-digits cd positive number: ");
 int num = Convert.ToInt32(Console.ReadLine());
 
 int firstDigit = num /100;
