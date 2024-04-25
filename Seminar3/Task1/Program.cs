@@ -5,11 +5,11 @@
 // [1 3 4 19 3], 8 => Нет
 // [-4 3 4 1], 3 => Да
 
-Console.Write("Type a new positive number: ");
+Console.Write("Type a new number: ");
 int num = Convert.ToInt32(Console.ReadLine());
 
 // int num = 10;
-int[] array = {2, 4, 5, 6, 45, 34, 22, 1, 7, 78};
+int[] array = { -4, 3, 4, 1 };
 
 // Console.Write(array.Length);
 bool found = false;
