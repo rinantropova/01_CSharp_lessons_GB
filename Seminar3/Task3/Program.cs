@@ -10,8 +10,6 @@ int[] array = {2, 3, 5, 56, 32, 11, 6, 4, 12};
 int size = array.Length / 2;
 int[] newArr = new int[size];
 
-// Console.Write(newArr.Length);
-
 int i = 0;
 int j = array.Length - 1;
 
@@ -21,14 +19,6 @@ for (int e = 0; e < newArr.Length; e++)
     i++;
     j--;
 }
-   
-// newArr[1] = array[i] * array[j];
-// i++;
-// j--;
-// newArr[2] = array[i] * array[j];
-// i++;
-// j--;
-// newArr[3] = array[i] * array[j];
 
 // Array.ForEach(newArr, Console.WriteLine);
 Console.WriteLine($"[{string.Join(", ", newArr)}]");
