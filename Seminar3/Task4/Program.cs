@@ -18,7 +18,11 @@ if (num >= 100 && num <= 999)
         array[i] = num % 10;
         num = num / 10;
     }
-    Console.WriteLine($"[{string.Join(", ", array)}]");
+    // Console.WriteLine($"[{string.Join(", ", array)}]");
+    for (int i = 0; i < array.Length; i++)
+    {
+        Console.Write($"{array[i]} ");
+    }
 }
 else
 {
