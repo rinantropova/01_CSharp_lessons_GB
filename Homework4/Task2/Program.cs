@@ -5,6 +5,8 @@
 // [344 452 341 125] => 2
 
 
+//My solution using functions:
+
 int[] CreateArrayRndInt(int size, int min, int max)
 {
     int[] array = new int[size];
@@ -69,3 +71,21 @@ PrintArray(arr);
 
 int countEvenNum = CountEvenNum(arr);
 Console.Write($" => {countEvenNum}");
+
+
+// Alternative solution from GeekBrains:
+// int[] numbers = new int[10];
+// Random rnd = new Random();
+// int evenCount = 0;
+
+// for (int i = 0; i < numbers.Length; i++)
+// {
+//     numbers[i] = rnd.Next(100, 1000);
+//     Console.Write(numbers[i] + " ");
+
+//     if (numbers[i] % 2 == 0)
+//     {
+//         evenCount++;
+//     }
+// }
+// Console.WriteLine($"\nAmount of even numbers in the array is: {evenCount}");
