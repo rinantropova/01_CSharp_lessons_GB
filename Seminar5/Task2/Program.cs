@@ -1,6 +1,6 @@
 ﻿
 
-int[,] CreateMatrix(int rowCount, int columnsCount)
+int[,] CreateMatrix(int rowCount, int columnsCount, int min, int max)
 {
     int[,] table = new int[rowCount, columnsCount];
 
@@ -9,7 +9,7 @@ int[,] CreateMatrix(int rowCount, int columnsCount)
     {
         for (int j = 0; j < table.GetLength(1); j++)
         {
-            table[i, j] = rnd.Next(1, 11);
+            table[i, j] = rnd.Next(min, max);
         }
     }
     return table;
@@ -21,7 +21,7 @@ void Showmatrix(int[,] table)
     {
         for (int j = 0; j < table.GetLength(1); j++)
         {
-            Console.Write($"{table[i, j]} ");
+            Console.Write($"{table[i, j], 4} ");
 
         }
         Console.WriteLine();
@@ -31,14 +31,21 @@ void Showmatrix(int[,] table)
 int CalculateMainDiagonalArraySum(int[,] table)
 {
     int sum = 0;
-    for (int i = 0; i < table.GetLength(0); i++)
+
+    // int minSize = table.GetLength(0);
+    // if(table.GetLength(1) < minSize)
+    // {
+    //     minSize = table.GetLength(1);
+    // }
+
+    for (int i = 0; i < table.GetLength(0) && i < table.GetLength(1); i++)
     {
         sum += table[i, i];
     }
     return sum;
 }
 
-int[,] matrix = CreateMatrix(4, 5);
+int[,] matrix = CreateMatrix(3, 4, 1, 11);
 Showmatrix(matrix);
 int mainDiagonalSum = CalculateMainDiagonalArraySum(matrix);
 Console.WriteLine(mainDiagonalSum);
