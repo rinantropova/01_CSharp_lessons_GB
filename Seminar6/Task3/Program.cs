@@ -30,13 +30,13 @@ int CountVowelsLetters(string str)
     int count = 0;
     for (int i = 0; i < str.Length; i++)
     {
-        for (int j = 0; j < vowels.Length; j++)
-        {
-            if(vowels[j] == str[i])
+        // for (int j = 0; j < vowels.Length; j++)
+        // {
+            if(vowels.Contains(str[i])) //vowels[j] == str[i]
             {
                 count++;
             }
-        }
+        // }
     }
     return count;
 }
