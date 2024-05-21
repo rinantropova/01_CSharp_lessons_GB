@@ -7,28 +7,33 @@
 Console.WriteLine("Please, enter a word: ");
 string str = Console.ReadLine();
 
-int fromEndIndex = str.Length - 1;
-bool isPalindrome = true;
-int halfSize = str.Length / 2;
+IsPalindrome(str);
 
-
-for (int i = 0; i < halfSize; i++)
+static void IsPalindrome(string str)
 {
+    int fromEndIndex = str.Length - 1;
+    bool isPalindrome = true;
+    int halfSize = str.Length / 2;
 
-  if(str[i] != str[fromEndIndex])
+
+    for (int i = 0; i < halfSize; i++)
     {
-        isPalindrome = false;
-        break;
+
+        if (str[i] != str[fromEndIndex])
+        {
+            isPalindrome = false;
+            break;
+        }
+        fromEndIndex--;
     }
-    fromEndIndex--;
+
+    if (isPalindrome)
+    {
+        Console.WriteLine("=> Yes, it is a palindrome");
+    }
+    else
+    {
+        Console.WriteLine("=> Not a palindrome");
+    }
 }
 
-if(isPalindrome)
-{
-    Console.WriteLine("=> Yes, it is a palindrome");
-}
-else
-{
-    Console.WriteLine("=> Not a palindrome");
-}
-    
